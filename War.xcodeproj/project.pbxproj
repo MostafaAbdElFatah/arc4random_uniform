@@ -403,6 +403,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mostafa.War;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mostafa.War;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -484,6 +486,7 @@
 				71AD2A651F17AD54002B2C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71AD2A661F17AD54002B2C24 /* Build configuration list for PBXNativeTarget "WarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				71AD2A681F17AD54002B2C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71AD2A691F17AD54002B2C24 /* Build configuration list for PBXNativeTarget "WarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				71AD2A6B1F17AD54002B2C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        btn1.setTitle("PLAY Loaded", forState: UIControlState.Normal)
+        btn1.setTitle("PLAY Loaded", for: UIControlState.normal)
         
         let num1 = Int.init(arc4random_uniform(5))
         label.text = String(format: "Button Clicked %i times" , num )
@@ -32,8 +32,9 @@ class ViewController: UIViewController {
 
     @IBAction func btn1_Clicked(sender: UIButton) {
         let num1 = Int(arc4random_uniform(5))
-        btn1.setTitle("PlAY", forState: UIControlState.Normal)
-        label.text = String(format: "Button Clicked %i times" , ++num )
+        btn1.setTitle("PlAY", for: UIControlState.normal)
+        num += 1
+        label.text = String(format: "Button Clicked %i times" , num )
         label2.text = words[num1]
     }
 
